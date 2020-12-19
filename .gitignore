@@ -1,0 +1,15 @@
+### Java ###
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# library #
+/lib
+
