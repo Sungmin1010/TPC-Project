@@ -13,3 +13,11 @@
 # library #
 /lib
 
+# idea #
+.idea/
+
+## class files ##
+out/
+
+# Properties #
+*.properties
