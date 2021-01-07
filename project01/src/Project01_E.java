@@ -42,6 +42,7 @@ public class Project01_E {
                     outputStream.write(bytes, 0, read);
                 }
                 inputStream.close();
+                outputStream.close();
             }else{
                 //에러발생
                 br = new BufferedReader(new InputStreamReader(con.getErrorStream()));
