@@ -21,3 +21,6 @@ out/
 
 # Properties #
 *.properties
+
+# image #
+*.jpg
