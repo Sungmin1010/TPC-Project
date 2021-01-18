@@ -24,3 +24,6 @@ out/
 
 # image #
 *.jpg
+
+# iml #
+*.iml
