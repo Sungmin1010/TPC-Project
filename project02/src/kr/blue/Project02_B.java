@@ -15,9 +15,10 @@ public class Project02_B {
         try{
             System.out.println("[입력 -> 년(yyyy)-월(mm)-일(dd)] : ");
             String bible = br.readLine();
-            url = url + "&Base_de="+bible+"bibleType=1";
+            url = url + "&Base_de="+bible+"&bibleType=1";
             System.out.println("====================================");
             Document doc = Jsoup.connect(url).post();
+            System.out.println(url);
             Element bible_text = doc.select(".bible_text").first();
             System.out.println(bible_text.text());
 
